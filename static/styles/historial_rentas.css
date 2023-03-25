@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#tarjeta-renta {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 20px auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    background-color: wheat;
+}
+
+#informacion-renta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#informacion-renta p {
+    font-size: 18px;
+}
+
+#tarjeta-renta img {
+    width: 50%;
+    max-width: 200px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.tiempo {
+    color: chocolate;
+}
+
+.precio-total {
+    color: darkgoldenrod;
+}

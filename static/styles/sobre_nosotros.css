@@ -1,0 +1,33 @@
+#contenedor-informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #bffa8f, #fa6);
+}
+
+#tarjeta-informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    max-width: 550px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 4px 2px #Fcf28f;
+    padding: 10px;
+}
+
+#tarjeta-informacion p {
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 24px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tarjeta-informacion img {
+    width: 100%;
+    margin-top: 15px;
+}

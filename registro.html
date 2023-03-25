@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registro</title>
+        <link rel="stylesheet" href="./static/styles/estilo_global.css" />
+        <link rel="stylesheet" href="./static/styles/registro.css" />
+    </head>
+    <body>
+        <header>
+            <nav id="nav-bar">
+                <div id="contenedor-logo-nombre">
+                    <a href="./index.html"><img id="logo" src="./resources/img/logo_bicicleta.png" alt="logo de bicicleta" /></a>
+                    <a href="./index.html" class="enlaces-nav-bar"><h1>Bicirentas</h1></a>
+                </div>
+                <ul id="lista-enlaces-nav-bar">
+                    <a href="./bicicletas.html" class="enlaces-nav-bar"><li>Bicicletas</li></a>
+                    <a href="./historial_rentas.html" class="enlaces-nav-bar"><li>Historial de rentas</li></a>
+                    <a href="./sobre_nosotros.html" class="enlaces-nav-bar"><li>Sobre nosotros</li></a>
+                    <a href="./login.html" class="enlaces-nav-bar"><li>Iniciar sesión</li></a>
+                </ul>
+                <div id="contenedor-menu-desplegable">
+                    <button id="boton-menu-desplegable"></button>
+                    <div id="menu-desplegable">
+                        <a href="./bicicletas.html" class="opcion-menu-desplegable">Bicicletas</a>
+                        <a href="./historial_rentas.html" class="opcion-menu-desplegable">Historial de rentas</a>
+                        <a href="./sobre_nosotros.html" class="opcion-menu-desplegable">Sobre nosotros</a>
+                        <a href="./login.html" class="opcion-menu-desplegable">Iniciar sesión</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="contenedor-imagen-fondo">
+            <img id="imagen-fondo" src="./resources/img/fondo_registro.webp" />
+        </div>
+        <div id="contenedor-formulario">
+            <div id="encabezado-formulario">
+                <img src="./resources/img/logo_bicicleta.png" alt="logo de bicicleta">
+                <h1>Registro</h1>
+            </div>
+            <form action="" method="post" id="formulario-registro">
+                <div class="contenedor-label-inputs">
+                    <label for="nombre">Nombre(s)</label>
+                    <input type="text" id="nombre" name="nombre"  required />
+                </div>
+                <div class="contenedor-label-inputs">
+                    <label for="apellido_paterno">Apellido Paterno</label>
+                    <input type="text" id="apellido_paterno" name="apellido_paterno" required />
+                </div>
+                <div class="contenedor-label-inputs">
+                    <label for="apellido_materno">Apellido Materno</label>
+                    <input type="text" id="apellido_materno" name="apellido_materno" required />
+                </div>
+                <div class="contenedor-label-inputs">
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" required />
+                </div>
+                <div class="contenedor-label-inputs">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required />
+                </div>
+                <div class="contenedor-label-inputs">
+                    <label for="contrasenia">Contraseña</label>
+                    <input type="password" id="contrasenia" name="contrasenia" required />
+                </div>
+                <input type="button" id="boton-registrarse" value="Registrarse"/>
+            </form>
+        </div>
+    </body>
+</html>

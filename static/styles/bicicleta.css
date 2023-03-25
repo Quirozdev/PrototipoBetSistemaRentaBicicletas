@@ -1,0 +1,43 @@
+#tarjeta-bicicleta {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 20px auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    background-color: wheat;
+}
+
+#informacion-bicicleta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#tarjeta-bicicleta img {
+    width: 50%;
+    max-width: 300px;
+}
+
+#tarjeta-bicicleta a {
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: lightslategray;
+    border-radius: 8px;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: greenyellow;
+    padding: 5px;
+}
+
+#tarjeta-bicicleta a:hover {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#contenedor-bicicletas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.bicicleta {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 1px 2px 1px 2px black;
+    background-color: white;
+}
+
+.bicicleta img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.bicicleta p {
+    padding: 3px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bicicleta a {
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: lightslategray;
+    border-radius: 8px;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: greenyellow;
+    padding: 5px;
+}
+
+.bicicleta a:hover {
+    color: white;
+}
